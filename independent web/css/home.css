@@ -1,16 +1,17 @@
 #abovenav {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    overflow: hidden; /* prevent weird spacing */
-  }
-  
-  #abovenav img {
-    width: 100%;
-    height: 80px; /* adjust this value to make it thinner */
-    object-fit: cover; /* makes sure the image scales without distortion */
-    display: block; /* removes extra spacing below image */
-  }
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+}
+#abovenav img {
+  width: 100%;
+  height: 80px; 
+  object-fit: cover; 
+  display: block; 
+}
+/*found on w3schools*/
+
 .navbar {
     background-color: #ECECEC;
  
@@ -29,21 +30,38 @@ body {
     height: 100%;
     background-color: white;
   }
-
-  .outer-wrapper {
-    width: 90vw;
-    height: 90vh;
- 
-    position: relative;
-  }
-  .hero-text {
+  .text {
     position: absolute;
     top: 50px;
     left: 75px;
     color: white;
-    font-size: 8vw;
-    font-weight: 900;
-    line-height: 1.1;
-    font-family: Arial, sans-serif;
+    font-size: 11vw;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 0.8;
+    letter-spacing: 3.3px;
+    text-transform: uppercase;
+
+  }
+  /*found this bebas neue from chatgpt*/
+  .logo {
+    position: absolute;
+    bottom: 20px;
+    left: 75px;
+    height: 100px;
+  
+  
+  }
+  .button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 40px 70px;
+    background-color: #FF800A;
+    color: #D16120;
+    font-size: 2rem;
+    font-weight: bold;
   }
 
+  .button:hover {
+    background-color: rgb(255, 199, 130);
+  }
